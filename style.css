@@ -1,0 +1,62 @@
+.App {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    gap:25px;
+}
+
+.useruploadimg {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.containerTop {
+    display:flex;
+}
+
+.containerBot {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgForm {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 50vw;
+    gap: 10px;
+}
+
+.imgForm > input {
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.imgForm > button {
+    max-width: 50%;
+}
+
+.invis {
+    display:none;
+}
+
+.uploadStyle {
+    width:50%;
+    border:1px solid black;
+    border-radius: 5px;
+    background-color: lightgray;
+    text-align: center;
+    cursor:pointer;
+}
+
+.uploadStyle:hover {
+    background-color: rgb(170, 170, 170);
+}
+
+.uploadStyle:active {
+    background-color: rgb(150, 150, 150);
+}
